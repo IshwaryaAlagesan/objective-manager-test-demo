@@ -10,7 +10,8 @@ exports.config = {
   helpers: {
     WebDriver: {
       url: 'https://dev-8.objectivemanager.com',
-      browser: 'chrome'
+      browser: 'chrome',
+      restart: false
     }
   },
   include: {
