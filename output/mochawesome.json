@@ -1,0 +1,175 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-01-27T19:17:23.930Z",
+    "end": "2020-01-27T19:17:40.067Z",
+    "duration": 16137,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5c472526-4380-42e5-b431-42002963cbb1",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+          "title": "Login",
+          "fullFile": "C:\\Users\\gopin.DESKTOP-UMV3VIQ\\Documents\\dummy\\objective-manager-demo\\feature1_test.js",
+          "file": "\\feature1_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite",
+              "fullTitle": "Login \"before all\" hook: codeceptjs.beforeSuite",
+              "timedOut": false,
+              "duration": 2223,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "fdf3f5bb-94ef-4f3a-91f7-b88ccf8adee4",
+              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before",
+              "fullTitle": "Login \"before each\" hook: codeceptjs.before",
+              "timedOut": false,
+              "duration": 6456,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "47a720e6-206d-4f99-b3c6-c6eec5c4bb36",
+              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite",
+              "fullTitle": "Login \"after all\" hook: codeceptjs.afterSuite",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "312ab38c-ba02-4450-9ba0-e8eb85efe475",
+              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs",
+              "fullTitle": "Login \"after each\" hook: finalize codeceptjs",
+              "timedOut": false,
+              "duration": 98,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "afe381aa-1e4d-424c-a8cc-5604849465f1",
+              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login to Application",
+              "fullTitle": "Login: Login to Application",
+              "timedOut": false,
+              "duration": 7327,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Login\nI.amOnPage('/login');\nI.see('SIGN IN');\nI.fillField('username','jeremy.black@delete.com');\nI.fillField('password','longCoyo+e86');\nI.click('SIGN IN');\n// Add New Entry\nvar newEntryName = 'New Test Automation Testing - Demo';\nI.see('My Homepage');\nI.click(\"//button[contains(text(),'Add Progress')]\");\nI.fillField(\"//textarea[@id='progressEntry']\",newEntryName);\nI.selectOption('progressAmount','40% Complete')\nI.click('Save')\n// Validate the New Entry\nI.see(newEntryName,\"//div[@id='searchResults']//ul[@class='clearfix']/li[1]\");\n// Logout\n// I.click('#div.accountSettingsDropdown');\nI.click(\"//div[contains(@class,'accountSettingsDropdown')]\");\nI.click('Logout');",
+              "err": {},
+              "uuid": "7fee9adf-7c35-4b03-8bfd-3edcf4a50cc3",
+              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7fee9adf-7c35-4b03-8bfd-3edcf4a50cc3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7327,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "output"
+      },
+      "version": "4.1.0"
+    }
+  }
+}

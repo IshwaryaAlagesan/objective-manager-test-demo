@@ -1,0 +1,27 @@
+{
+  "name": "objective-manager-demo",
+  "version": "1.0.0",
+  "description": "objective-manager-demo using Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npx codeceptjs run --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IshwaryaAlagesan/objective-manager-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IshwaryaAlagesan/objective-manager-demo/issues"
+  },
+  "homepage": "https://github.com/IshwaryaAlagesan/objective-manager-demo#readme",
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "codeceptjs": "^2.4.1",
+    "mochawesome": "^4.1.0",
+    "webdriverio": "^5.18.6"
+  }
+}
