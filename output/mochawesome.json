@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-01-27T19:17:23.930Z",
-    "end": "2020-01-27T19:17:40.067Z",
-    "duration": 16137,
+    "start": "2020-01-27T19:34:54.227Z",
+    "end": "2020-01-27T19:35:11.163Z",
+    "duration": 16936,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "5c472526-4380-42e5-b431-42002963cbb1",
+      "uuid": "eac1b022-88f8-4c1b-a693-3b6913504ecd",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,16 +27,16 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+          "uuid": "ce849567-4109-49d7-acb8-1ec8524cce5e",
           "title": "Login",
-          "fullFile": "C:\\Users\\gopin.DESKTOP-UMV3VIQ\\Documents\\dummy\\objective-manager-demo\\feature1_test.js",
+          "fullFile": "C:\\Users\\gopin.DESKTOP-UMV3VIQ\\Documents\\dummy\\objective-manager-test-demo\\feature1_test.js",
           "file": "\\feature1_test.js",
           "beforeHooks": [
             {
               "title": "\"before all\" hook: codeceptjs.beforeSuite",
               "fullTitle": "Login \"before all\" hook: codeceptjs.beforeSuite",
               "timedOut": false,
-              "duration": 2223,
+              "duration": 4105,
               "state": null,
               "speed": null,
               "pass": false,
@@ -45,8 +45,8 @@
               "context": null,
               "code": "scenario.suiteSetup(suite)",
               "err": {},
-              "uuid": "fdf3f5bb-94ef-4f3a-91f7-b88ccf8adee4",
-              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "uuid": "9aca93bf-0201-454b-b3c8-430c080124b1",
+              "parentUUID": "ce849567-4109-49d7-acb8-1ec8524cce5e",
               "isHook": true,
               "skipped": false
             },
@@ -54,7 +54,7 @@
               "title": "\"before each\" hook: codeceptjs.before",
               "fullTitle": "Login \"before each\" hook: codeceptjs.before",
               "timedOut": false,
-              "duration": 6456,
+              "duration": 6216,
               "state": null,
               "speed": null,
               "pass": false,
@@ -63,8 +63,8 @@
               "context": null,
               "code": "scenario.setup(suite)",
               "err": {},
-              "uuid": "47a720e6-206d-4f99-b3c6-c6eec5c4bb36",
-              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "uuid": "2015207e-9339-4273-93a5-6949baeb512b",
+              "parentUUID": "ce849567-4109-49d7-acb8-1ec8524cce5e",
               "isHook": true,
               "skipped": false
             }
@@ -83,8 +83,8 @@
               "context": null,
               "code": "scenario.suiteTeardown(suite)",
               "err": {},
-              "uuid": "312ab38c-ba02-4450-9ba0-e8eb85efe475",
-              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "uuid": "3046ee38-3ae4-4851-b415-81fe71741462",
+              "parentUUID": "ce849567-4109-49d7-acb8-1ec8524cce5e",
               "isHook": true,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "\"after each\" hook: finalize codeceptjs",
               "fullTitle": "Login \"after each\" hook: finalize codeceptjs",
               "timedOut": false,
-              "duration": 98,
+              "duration": 139,
               "state": null,
               "speed": null,
               "pass": false,
@@ -101,8 +101,8 @@
               "context": null,
               "code": "scenario.teardown(suite)",
               "err": {},
-              "uuid": "afe381aa-1e4d-424c-a8cc-5604849465f1",
-              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "uuid": "d2c393ae-c432-47bd-bbb4-0eadd31854e3",
+              "parentUUID": "ce849567-4109-49d7-acb8-1ec8524cce5e",
               "isHook": true,
               "skipped": false
             }
@@ -112,7 +112,7 @@
               "title": "Login to Application",
               "fullTitle": "Login: Login to Application",
               "timedOut": false,
-              "duration": 7327,
+              "duration": 6456,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -121,20 +121,20 @@
               "context": null,
               "code": "// Login\nI.amOnPage('/login');\nI.see('SIGN IN');\nI.fillField('username','jeremy.black@delete.com');\nI.fillField('password','longCoyo+e86');\nI.click('SIGN IN');\n// Add New Entry\nvar newEntryName = 'New Test Automation Testing - Demo';\nI.see('My Homepage');\nI.click(\"//button[contains(text(),'Add Progress')]\");\nI.fillField(\"//textarea[@id='progressEntry']\",newEntryName);\nI.selectOption('progressAmount','40% Complete')\nI.click('Save')\n// Validate the New Entry\nI.see(newEntryName,\"//div[@id='searchResults']//ul[@class='clearfix']/li[1]\");\n// Logout\n// I.click('#div.accountSettingsDropdown');\nI.click(\"//div[contains(@class,'accountSettingsDropdown')]\");\nI.click('Logout');",
               "err": {},
-              "uuid": "7fee9adf-7c35-4b03-8bfd-3edcf4a50cc3",
-              "parentUUID": "47223efd-7a0f-4248-946e-11b8eaea75d2",
+              "uuid": "d66afdd3-6c4a-4f54-b1b6-c7d0f2d1c3c3",
+              "parentUUID": "ce849567-4109-49d7-acb8-1ec8524cce5e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7fee9adf-7c35-4b03-8bfd-3edcf4a50cc3"
+            "d66afdd3-6c4a-4f54-b1b6-c7d0f2d1c3c3"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7327,
+          "duration": 6456,
           "root": false,
           "rootEmpty": false,
           "_timeout": 0

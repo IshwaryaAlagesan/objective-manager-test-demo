@@ -4,15 +4,14 @@
   "description": "objective-manager-demo using Node JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "npx codeceptjs run --reporter mochawesome"
+    "test": "npx codeceptjs run --reporter mochawesome"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IshwaryaAlagesan/objective-manager-demo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ishwarya Alagesan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/IshwaryaAlagesan/objective-manager-demo/issues"
